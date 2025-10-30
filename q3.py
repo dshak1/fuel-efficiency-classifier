@@ -503,3 +503,14 @@ def std_y(row):
     mu = np.mean(row, axis=1)
     sigma = np.sqrt(np.mean((row - mu)**2, axis=1))
     return np.array([(val - mu)/(1.0*sigma) for val in row]), mu, sigma
+
+
+
+'''
+
+
+when you come back to this use this as a classifier for 
+for malware entries
+
+
+'''
